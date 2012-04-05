@@ -399,15 +399,15 @@ int score;
 
 - (void) dealloc
 {
-	[shake release];
+    [shake release];
     
-	[pointsLabel release];
+    [pointsLabel release];
     [scoreLabel release];
     
     [gateArray release];
     [activeSplotches release];
     
-	[super dealloc];
+    [super dealloc];
 }
 
 
