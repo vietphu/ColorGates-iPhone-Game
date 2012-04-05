@@ -38,7 +38,7 @@ int score;
 	// 'layer' is an autorelease object.
 	GameScene *layer = [GameScene node];
     
-    gs = layer;
+        gs = layer;
 	
 	// add layer as a child to scene
 	[scene addChild: layer];
